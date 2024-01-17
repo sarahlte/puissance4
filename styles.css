@@ -1,0 +1,197 @@
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dimension {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'black Ops One';
+    margin: 10px 0;
+    width: max-content;
+    white-space: nowrap;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px
+}
+
+td {
+    padding: 0;
+    margin: 0;
+    display: inline-flex
+}
+.coin{
+    height:52px;
+    width:52px;
+    border-radius:50%;
+    margin:2px
+}
+
+
+
+.no{
+    background-color:white;
+}
+ 
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#template {
+    background-color:blue;
+    width:fit-content;
+    border-radius: 1%;
+    margin: 0;
+}
+
+#sizeOfBoard {
+    display: flex;
+    align-items: center;
+}
+
+.parameters {
+    display: flex;
+    align-items: center;
+}
+
+input{
+    height: fit-content;
+    width: 50px;
+    margin: 0 5px;
+}
+
+#params {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 70%!important;
+}
+
+a {
+    margin: 0 5px;
+}
+
+
+#player {
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin:2px;
+}
+
+#reload {
+    transform: rotate3d(1, 1, 0, 180deg);
+}
+
+.container {
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#player {
+    margin: 0 0 0 10px;
+}
+
+button {
+    background-color: white;
+    border-radius: 10%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    border: 0;
+    box-shadow: 2px 2px 2px black;
+}
+
+.navbar-expand-lg {
+    width: 100%!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+    #navbarNav {
+        justify-content: flex-end;
+    }
+    #rules {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+main {
+    margin: 35px 0;
+}
+
+#template {
+    margin: 35px 0;
+}
+
+@media screen and (max-width: 992px){
+    #main {
+        width: 100%;
+    }
+    #params {
+        margin: 50px;
+    }
+    #gameRules{
+        width: 70%;
+    }
+}
+
+#titleLink {
+    color: black;
+    text-decoration: none;
+}
+
+#gameRules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#goal, #winner {
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#titleRules {
+    margin-bottom: 20px;
+}
